@@ -8,8 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="520.0" prefWidth="853.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="sayul.proyectouno.AlmacenamientoController">
+<AnchorPane id="AnchorPane" prefHeight="520.0" prefWidth="853.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sayul.proyectouno.AlmacenamientoController">
    <children>
       <TableView layoutX="49.0" layoutY="93.0" prefHeight="431.0" prefWidth="620.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="223.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
         <columns>
@@ -17,8 +16,8 @@
           <TableColumn fx:id="columnaProducto" prefWidth="201.0" text="Producto" />
             <TableColumn fx:id="columnaClave" prefWidth="60.0" text="Clave" />
             <TableColumn fx:id="columnaCosto" prefWidth="93.0" text="Costo" />
-            <TableColumn fx:id="columnaPrecio" prefWidth="101.0" text="Precio" />
-            <TableColumn fx:id="columnaExistencia" prefWidth="70.0" text="Existencia" />
+            <TableColumn fx:id="columnaPrecio" prefWidth="111.0" text="Precio" />
+            <TableColumn fx:id="columnaExistencia" prefWidth="86.0" text="Existencia" />
         </columns>
       </TableView>
       <TextField fx:id="tfieldId" layoutX="21.0" layoutY="46.0" prefHeight="17.0" prefWidth="177.0" AnchorPane.bottomAnchor="443.0" AnchorPane.leftAnchor="21.0" AnchorPane.rightAnchor="655.0" AnchorPane.topAnchor="46.0">
