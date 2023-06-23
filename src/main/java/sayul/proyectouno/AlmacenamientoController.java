@@ -67,6 +67,9 @@ public class AlmacenamientoController implements Initializable {
         nombre.setCosto(Double.parseDouble(tFieldCosto.getText()));
         nombre.setExistencia(Integer.parseInt(tFieldExistencia.getText()));
         nombre.setPrecio(Double.parseDouble(tFieldPrecio.getText()));
+        
+        columnaId.setText(toString().nombre.getId());
+        columnaProducto.setText(nombre.getProducto());
     }
 
     @FXML

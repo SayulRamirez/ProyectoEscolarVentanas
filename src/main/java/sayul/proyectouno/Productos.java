@@ -25,7 +25,7 @@ public void setProducto(String producto){
     this.nombreProducto = producto;
 }
 
-public String setProducto(){
+public String getProducto(){
     return nombreProducto;
 }
 
