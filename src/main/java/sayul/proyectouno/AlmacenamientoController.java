@@ -59,6 +59,14 @@ public class AlmacenamientoController implements Initializable {
 
     @FXML
     private void botonAgregarAccion(ActionEvent event) {
+        
+        Productos nombre = new Productos();
+        nombre.setId(Integer.parseInt(tfieldId.getText()));
+        nombre.setProducto(tFieldProducto.getText());
+        nombre.setClave(Integer.parseInt(tFieldClave.getText()));
+        nombre.setCosto(Double.parseDouble(tFieldCosto.getText()));
+        nombre.setExistencia(Integer.parseInt(tFieldExistencia.getText()));
+        nombre.setPrecio(Double.parseDouble(tFieldPrecio.getText()));
     }
 
     @FXML
