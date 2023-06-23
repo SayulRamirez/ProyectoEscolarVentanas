@@ -9,13 +9,8 @@ private double costo;
 private double precio;
 private int existencia;
 
-public Productos(int id, String nombreProducto, int clave, double costo, double precio, int existencia){
-    this.id = id;
-    this.nombreProducto = nombreProducto;
-    this.clave = clave;
-    this.costo = costo;
-    this.precio = precio;
-    this.existencia = existencia;
+public Productos(){
+    
 }
 
 public void setId(int id){
